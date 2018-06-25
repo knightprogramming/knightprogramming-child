@@ -47,3 +47,11 @@
 .site-search {
     margin-bottom: 1em;
 }
+
+#masthead {
+    height: 120px;
+}
+
+.woocommerce_product_search {
+    width: 500px;
+}
