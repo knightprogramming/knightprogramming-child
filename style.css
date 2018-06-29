@@ -5,73 +5,73 @@
  Author:       Christoper Little
  Author URI:   
  Template:     storefront
- Version:      1.1
+ Version:      1.7
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
 
  /* == Add your own styles below this line ==
 --------------------------------------------*/
 
-.custom-logo {
-    width: 9.75vw;
-    position: absolute;
-    left: 2.5vw;
-    top: .4vw;
+@media (min-width: 768px) {
+    .custom-logo {
+        width: 9.75vw;
+        position: absolute;
+        left: 2.5vw;
+        top: .4vw;
+    }
+    .entry-content {
+        background-color: white;
+        padding: 40px;
+        margin-top: 0px;
+    }
+    input[type=search] {
+        border-radius: 10px;
+    }
+    .main-navigation ul li a,
+    ul.menu li a {
+        color: white;
+    }
+    #masthead {
+        height: 100px;
+    }
+    #menu-item-5498 {}
+    .primary-navigation {
+        position: absolute;
+        top: -20px;
+    }
+    .storefront-primary-navigation {
+        background-color: #5b7259;
+        height: 40px;
+        position: absolute;
+        top: 75px;
+        width: 100vw;
+    }
+    .site-header {
+        padding-top: 10px;
+    }
+    #site-header-cart {
+        position: absolute;
+        top: -6vw;
+        right: 7vw;
+    }
+    .site-search {
+        margin-bottom: 1em;
+        border-radius: 10px;
+    }
+    .woocommerce-active .site-header .site-search {
+        position: absolute;
+        width: 50vw;
+        left: 15vw;
+        top: 1.8vw;
+    }
 }
 
-.entry-content {
-    background-color: white;
-    padding: 40px;
-    margin-top: 0px;
-}
+@media (min-width: 420px) {
+    .storefront-handheld-footer-bar {
+        color: white;
+    }
 
-input[type=search] {
-    border-radius: 10px; 
-}
-
-.main-navigation ul li a, ul.menu li a {
-    color: white;
-}
-
-#masthead {
-    height: 120px;
-}
-
-.page-template-template-homepage .type-page {
-    padding-top: 200px;
-}
-
-.primary-navigation {
-    position: absolute;
-    top: -1.3vw;
-}
-
-.storefront-primary-navigation {
-    background-color: #5b7259;
-    height: 40px;
-    position: absolute;
-    top: 6.8vw; 
-    width: 100vw;
-}
-
-.site-header {
-    padding-top: 10px;
-}
-
-#site-header-cart {
-    position: absolute;
-    top: -1.3vw;
-    right: 7vw;
-}
-
-.site-search {
-    margin-bottom: 1em;
-    border-radius: 10px !important;
-}
-
-.woocommerce-active .site-header .site-search {
-    position: absolute;
-    width: 50vw;
-    left: 15vw;
-    top: 1.8vw;
+    .storefront-handheld-footer-bar ul li > a {
+        display: none;
+    }
 }
