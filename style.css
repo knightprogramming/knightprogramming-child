@@ -37,6 +37,11 @@
         height: 100px;
     }
 
+    .woocommerce-active .site-header .main-navigation {
+        position: absolute;
+        top: -18px;
+    }
+
     .page-template-template-homepage .entry-content, .page-template-template-homepage .entry-header {
         max-width: 100vw;
     }
