@@ -19,6 +19,9 @@
         left: 2.5vw;
         top: .4vw;
     }
+    #breadcrumb {
+        display: none;
+        }
     .entry-content {
         background-color: white;
         padding: 40px;
@@ -70,6 +73,9 @@
         width: 50vw;
         left: 15vw;
         top: 1.8vw;
+    }
+    .storefront-full-width-content .woocommerce-products-header {
+        display: none !important;
     }
 }
 
