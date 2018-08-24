@@ -15,9 +15,13 @@ function my_theme_enqueue_styles()
 add_action('wp_enqueue_scripts', 'my_theme_enqueue_styles');
 
 
-add_action( 'init', 'woo_remove_wc_breadcrumbs' );
-function woo_remove_wc_breadcrumbs() {
-    remove_action( 'woocommerce_before_main_content', 'woocommerce_breadcrumb', 20, 0 );
+/**
+ * Remove breadcrumbs for Storefront theme
+ */
+add_action( 'init', 'wc_remove_storefront_breadcrumbs');
+
+function wc_remove_storefront_breadcrumbs() {
+  remove_action( 'storefront_before_content', 'woocommerce_breadcrumb', 10 );
 }
 
 ?>
