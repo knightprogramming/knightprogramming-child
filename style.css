@@ -19,9 +19,6 @@
         left: 2.5vw;
         top: .4vw;
     }
-    #breadcrumb {
-        display: none;
-        }
     .entry-content {
         background-color: white;
         padding: 40px;
