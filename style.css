@@ -37,6 +37,10 @@
         height: 100px;
     }
 
+    .site-content {
+        padding-top:75px;
+    }
+    
     .woocommerce-active .site-header .main-navigation {
         position: absolute;
         top: -18px;
