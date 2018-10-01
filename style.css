@@ -23,7 +23,7 @@
     .col-full {
         padding: 0;
     }
-    
+
     .entry-content {
         background-color: white;
         padding: 40px;
@@ -43,7 +43,7 @@
     }
 
     .page-template-template-homepage .entry-header h1 {
-        margin-bottom: 0;
+        margin-bottom: 10px;
     }
 
     .page-template-template-homepage .type-page {
