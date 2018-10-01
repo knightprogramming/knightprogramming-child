@@ -37,6 +37,10 @@
         height: 100px;
     }
 
+    .page-template-template-homepage .entry-header h1 {
+        margin-bottom: 0;
+    }
+
     .site-content {
         padding-top:75px;
     }
