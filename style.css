@@ -29,6 +29,9 @@
     input[type=search] {
         border-radius: 10px;
     }
+    .left-sidebar .content-area{
+        float: left;
+    }
     .main-navigation ul li a,
     ul.menu li a {
         color: white;
