@@ -20,6 +20,10 @@
         top: .4vw;
     }
 
+    .col-full {
+        padding: 0;
+    }
+
     .entry-content {
         background-color: white;
         padding: 40px;
