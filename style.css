@@ -5,7 +5,7 @@
  Author:       Christoper Little
  Author URI:   
  Template:     storefront
- Version:      2.0
+ Version:      1.9
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -19,11 +19,6 @@
         left: 2.5vw;
         top: .4vw;
     }
-
-    .col-full {
-        padding: 0;
-    }
-
     .entry-content {
         background-color: white;
         padding: 40px;
@@ -42,12 +37,8 @@
         height: 100px;
     }
 
-    .page-template-template-homepage .entry-header h1 {
-        margin-bottom: 35px;
-    }
-
-    .page-template-template-homepage .type-page {
-        padding-top: 0;
+    .site-content {
+        padding-top:75px;
     }
     
     .woocommerce-active .site-header .main-navigation {
