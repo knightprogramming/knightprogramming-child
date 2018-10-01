@@ -5,7 +5,7 @@
  Author:       Christoper Little
  Author URI:   
  Template:     storefront
- Version:      1.8.2
+ Version:      1.9
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -24,7 +24,7 @@
         padding: 40px;
         margin-top: 0px;
         border-radius: 20px;
-        width: 75vw;
+        width: 80vw;
     }
     input[type=search] {
         border-radius: 10px;
