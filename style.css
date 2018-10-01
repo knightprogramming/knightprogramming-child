@@ -19,6 +19,11 @@
         left: 2.5vw;
         top: .4vw;
     }
+
+    .col-full {
+        padding: 0;
+    }
+    
     .entry-content {
         background-color: white;
         padding: 40px;
@@ -39,6 +44,10 @@
 
     .page-template-template-homepage .entry-header h1 {
         margin-bottom: 0;
+    }
+
+    .page-template-template-homepage .type-page {
+        padding-top: 0;
     }
     
     .woocommerce-active .site-header .main-navigation {
